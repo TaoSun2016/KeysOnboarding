@@ -20,5 +20,11 @@ namespace KeysOnboarding.Models
         }
 
         public System.Data.Entity.DbSet<KeysOnboarding.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<KeysOnboarding.Models.Customer> Customers { get; set; }
+
+        public System.Data.Entity.DbSet<KeysOnboarding.Models.Store> Stores { get; set; }
+
+        public System.Data.Entity.DbSet<KeysOnboarding.Models.ProductSold> ProductSolds { get; set; }
     }
 }
