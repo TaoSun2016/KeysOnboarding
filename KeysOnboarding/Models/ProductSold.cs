@@ -12,6 +12,9 @@ namespace KeysOnboarding.Models
         public virtual int CustomerId { get; set; }
         public virtual int StoreId { get; set; }
         public virtual  DateTime DateSold { get; set; }
+        public virtual  Product Product { get; set; }
+        public virtual Customer Customer { get; set; }
+        public virtual Store Store { get; set; }
 
     }
 }
